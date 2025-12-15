@@ -2,7 +2,7 @@ module.exports.config = {
  name: "bday",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "ULLASH and SAHU ",
+ credits: "SHAHADAT SAHU ",
  description: "See admin's birthday",
  usePrefix: false,
  commandCategory: "bday",
@@ -41,9 +41,9 @@ module.exports.run = async ({ api, event }) => {
 ╟─────────────────
 ║ 📩 Connect With Him: 
 ║ ➤ 📘 Facebook : 
-║ www.facebook.com/61575698041722 
+║ www.facebook.com/100001039692046
 ║ ➤ 💬 Messenger : 
-║ m.me/61575698041722 
+║ m.me/100089047474463
 ║ ➤ 📱 WhatsApp : 
 ║ https://wa.me/+8801882333052 
 ╟─────────────────
@@ -73,7 +73,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
- const url = `https://graph.facebook.com/61575698041722/picture?height=720&width=720`;
+ const url = `https://graph.facebook.com/100001039692046/picture?height=720&width=720`;
 
  try {
  const response = await axios({
